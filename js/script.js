@@ -1,14 +1,10 @@
-
 // business logic
-var numberOfTeachers=[];
-var teacherNames=[];
-var numberOfSubjects=[];
-var subjectName=[];
+var numberOfTeachers = [];
+var teacherNames = [];
+var numberOfSubjects = [];
+var subjectName = [];
 
-
-function ranSubject(){
-    var randomSubject=Math.floor(Math.random()*subjectName.length)
-    return subjectName[randomSubject];
-
+function ranSubject() {
+  var randomSubject = Math.floor(Math.random() * subjectName.length);
+  return subjectName[randomSubject];
 }
-

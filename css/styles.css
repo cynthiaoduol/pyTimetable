@@ -4,7 +4,7 @@
   background-position: center center;
   background-attachment: scroll;
   background-size: cover;
-  height: 450px;
+  height: auto;
   width: 100%;
   text-align: center;
   color: black;
@@ -15,24 +15,26 @@
 
 /* } 
 body{
-    font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 } */
 
 #contact {
   font-size: 30px;
   text-align: center;
-
   padding-top: 3%;
 }
+
 footer {
   background-color: blanchedalmond;
 }
+
 ul {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .button {
   background-color: #f4511e;
   border: none;
@@ -64,9 +66,8 @@ ul {
   background-color: blue;
 }
 
-
 /* a{
-    font-size: 8rem;
+  font-size: 8rem;
 } */
 
 li {
@@ -82,9 +83,11 @@ li {
   width: 150px;
   text-align: center;
 }
+
 a {
-  color:rgba(102,102,102,0.2);
+  color: rgba(102, 102, 102, 0.2);
 }
-nav{
-    position: fixed;
+
+nav {
+  position: fixed;
 }
